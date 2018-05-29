@@ -1,0 +1,59 @@
+body{
+  text-align: center;
+  margin: 0 auto;
+  font-family: Montserrat;
+  background-color: #006666 ;
+  color: white;
+}
+.clock{
+  height: 350px;
+  width: 350px;
+  margin: 20px auto;
+  border: 2px solid violet;
+  border-radius: 100%;
+  cursor: pointer;
+}
+#grad {
+	background-color: #006666;
+}
+h1{
+  font-size: 60px;
+  font-family: Pacifico;
+  color: #FFB90F;
+}
+
+.timers div{
+  display: inline-block;
+  margin: 0px 20px;
+}
+.in{
+  display: inline-block;
+  margin: 5px;
+}
+button{
+  color: white;
+  background-color: #6A5ACD;
+  border:0;
+  outline: 0;
+}
+button:hover{
+  cursor: pointer;
+  color: red;
+background-color: #BFEFFF;
+}
+#break{
+  font-size: 40px; 
+}
+#count{
+	font-size: 40px; 
+}
+button{
+    font-size: 40px; 
+}
+#title, #timer{
+  font-size: 50px;
+  margin-top: 60px;
+}
+
+
+
