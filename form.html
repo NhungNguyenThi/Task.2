@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Form Validator</title>
+	<link rel="stylesheet" href="form.css">
+	<script src="form.js"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<h1 class="vali" style="color: blue;">Form Validation</h1>
+		<div class="format">
+			<form action="#" onsubmit="return validation()">
+				<div class="forform">
+					<p align="left"> Username: </p>
+					<input type="text" name="user" id="username" class="form" style="font-size: 15px;">
+					<span id="usernameid" class="usernamei"></span>
+				</div>
+
+				<div class="forform">
+					<p align="left"> Password: </p>
+					<input type="password" name="user" id="password" class="form" style="font-size: 15px;">
+					<span id="passwords" class="password"></span>
+				</div>
+
+				<div class="forform">
+					<p align="left"> Confirm Password: </p>
+					<input type="password" name="user" id="passwordconfrm" class="form" style="font-size: 15px;">
+					<span id="confrmpassword" class="confrmpasswro"></span>
+				</div>
+
+				<div class="forform">
+					<p align="left"> Phone: </p>
+					<input type="text" name="user" id="numbermobile" class="form" style="font-size: 15px;">
+					<span id="mobilenumber" class="mobilenumbe"></span>
+				</div>
+
+				<div class="forform">
+					<p align="left"> Email: </p>
+					<input type="text" name="user" id="emailid" class="form" style="font-size: 15px;">
+					<span id="emailids" class="emaili"></span>
+				</div>
+				<div class="forform">
+				<input type="submit" name="submit" value="Submit" class="btnsub">
+			</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
